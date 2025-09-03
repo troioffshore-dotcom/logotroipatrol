@@ -3,14 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Patroli Security</title>
-  <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
-  <link rel="apple-touch-icon" href="Blue-Yellow-Modern-Lock-Guard-Security-Logo-192.png">
+
+  <!-- Manifest absolut path -->
+  <link rel="manifest" href="https://troioffshore-dotcom.github.io/troi-patrol/manifest.json">
+
+  <!-- Apple touch icon untuk iOS -->
+  <link rel="apple-touch-icon" href="https://troioffshore-dotcom.github.io/troi-patrol/Blue-Yellow-Modern-Lock-Guard-Security-Logo-192.png">
+
+  <!-- Warna tema -->
   <meta name="theme-color" content="#0a74da">
+
+  <!-- Responsif -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<script>
-  window.location.href = "https://script.google.com/macros/s/AKfycbzc2vDQE96TfOQwt6Y3ykNxmdd6LTcP__BaQ1E0fQJuwVs6MC2kJCF-c9KoG9Z_3ZU/exec";
-</script>
+  <h2>Memuat aplikasi Patroli Security...</h2>
+
+  <script>
+    // Delay redirect supaya manifest & icon sempat diload
+    setTimeout(() => {
+      window.location.href = "https://script.google.com/macros/s/AKfycbzc2vDQE96TfOQwt6Y3ykNxmdd6LTcP__BaQ1E0fQJuwVs6MC2kJCF-c9KoG9Z_3ZU/exec";
+    }, 1500);
+  </script>
 </body>
 </html>
